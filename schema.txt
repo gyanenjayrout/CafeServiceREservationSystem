@@ -1,0 +1,58 @@
+1)admin-service
+
+Table: admin
+Columns:
+id varchar(255) PK 
+address varchar(255) 
+email varchar(255) 
+mobile varchar(255) 
+name varchar(255) 
+password varchar(255) 
+username varchar(255)
+
+---------------------
+
+2)user-service
+
+Table: user
+Columns:
+user_id varchar(255) PK 
+about varchar(255) 
+email varchar(255) 
+name varchar(20)
+
+----------------------
+
+3)menu-service
+
+Table: menu_services
+Columns:
+menu_id varchar(255) PK 
+description varchar(255) 
+item_price varchar(255) 
+name varchar(255) 
+status varchar(255)
+
+----------------------
+
+4)table-service
+
+Table: table_entities
+Columns:
+table_id varchar(255) PK 
+menu_id varchar(255) 
+table_no varchar(255) 
+tablerow int 
+user_id varchar(255)
+
+-----------------------
+
+5)cafe-service
+
+Table: contact
+Columns:
+id bigint PK 
+address varchar(255) 
+email varchar(255) 
+phone_number varchar(255) 
+time_to_contact varchar(2
